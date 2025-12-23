@@ -16,7 +16,7 @@ app.get('/about',(req, res) => {
 });
 
 app.get('/contact',(req, res) => {
-    // res.send('Helooo contactt');
+    // res.send('Helooo contactt route');
     res.sendFile("./page/contact.html",{root:__dirname});
 });
 
